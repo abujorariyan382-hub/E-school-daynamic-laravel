@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideber{
+    background-color: #1181f1;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    padding: 10px;
+    
+
+    
+}
+
+.layoutSideNav_content{
+        margin-left: 200px;
+}
+
+.nav-link{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.main{
+    margin-left: 200px;
+}
+
+.footer{
+    width: 100vw;
+    margin-top: 72vh;
+    z-index: 2;
+    margin-left: 200px;
+    background-color: rgb(236, 245, 242);
+    position: fixed;
+}
+
+@media (max-width: 468px) {
+  .main {
+    margin-right: 100px
+  }
+}
+
+
